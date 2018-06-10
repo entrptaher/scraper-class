@@ -2,7 +2,7 @@ This exports a page controller that can be used to control a chrome page instanc
 
 Example usage:
 
-```
+```js
 const scraper = new Scraper({headless: false, url: 'example.com', proxy: '127.0.0.1:8888', cookies: 'somecookie=bar'});
 await scraper.navigate('example.org');
 await scraper.type(selector, value);
