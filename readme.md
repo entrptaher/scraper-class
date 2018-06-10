@@ -8,5 +8,6 @@ await scraper.navigate('example.org');
 await scraper.type(selector, value);
 await scraper.click(selector, visible);
 await scraper.select(selector, value);
+await scraper.getText(selector);
 await scraper.closeBrowser();
 ```
