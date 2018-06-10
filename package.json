@@ -1,0 +1,12 @@
+{
+  "name": "scraper-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/entrptaher/scraper-class",
+  "author": "entrptaher@gmail.com <entrptaher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-url": "^3.0.1",
+    "puppeteer": "1.4.0"
+  }
+}
