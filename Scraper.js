@@ -82,7 +82,7 @@ class BrowserInstance {
    */
   async launchBrowser() {
     this.browser = await puppeteer.launch({
-      headless: this.props.headless || true,
+      headless: this.props.headless,
       args: this.args
     });
     return this;
