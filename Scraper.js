@@ -59,8 +59,6 @@ class BrowserInstance {
   setArgs() {
     const args = [
       "--disable-dev-shm-usage",
-      "--single-process",
-      "--no-zygote",
       "--no-sandbox"
     ];
     const proxy = this.props.proxy || process.env.DEFAULT_PROXY;
